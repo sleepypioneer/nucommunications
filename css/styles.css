@@ -4758,6 +4758,7 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 768px) {
+
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -12267,7 +12268,7 @@ body:before {
 
 .bg-img {
   position: fixed;
-  background-image: url("../assets/img/earth_space.jpg");
+  background-image: url("../assets/img/earth_space_mobile.jpg");
   background-size: cover;
   top: 50%;
   left: 50%;
@@ -12343,6 +12344,11 @@ body:before {
 }
 
 @media (min-width: 992px) {
+
+  .bg-img {
+    background-image: url("../assets/img/earth_space_medium.jpg");
+  }
+
   .masthead {
     height: 100%;
     width: 75vw;
@@ -12373,6 +12379,11 @@ body:before {
 }
 
 @media (min-width: 1200px) {
+
+  .bg-img {
+    background-image: url("../assets/img/earth_space.jpg");
+  }
+
   .masthead {
     width: 65vw;
   }
