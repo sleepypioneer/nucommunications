@@ -12261,14 +12261,15 @@ body:before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #2a5555;
+  /* background-color: #2a5555; */
   opacity: 0.7;
   z-index: 1;
 }
 
 .bg-img {
   position: fixed;
-  background-image: url("../assets/img/earth_space_mobile.jpg");
+  background-image: url("../assets/img/NU_communications_background_mobile.jpg");
+  background-color: #ff3333;
   background-size: cover;
   top: 50%;
   left: 50%;
@@ -12346,7 +12347,7 @@ body:before {
 @media (min-width: 992px) {
 
   .bg-img {
-    background-image: url("../assets/img/earth_space_medium.jpg");
+    background-image: url("../assets/img/NU_communications_background_mobile_landscape.jpg");
   }
 
   .masthead {
@@ -12381,7 +12382,7 @@ body:before {
 @media (min-width: 1200px) {
 
   .bg-img {
-    background-image: url("../assets/img/earth_space.jpg");
+    background-image: url("../assets/img/NU_communications_background_desktop.jpg");
   }
 
   .masthead {
